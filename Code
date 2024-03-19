@@ -1,0 +1,15 @@
+public class OutOfSpace {
+  
+  public static String[] spacey(String[] array) {
+    // TODO: Figure it out :)
+    String[] removeSpace = new String[array.length];
+         String phrase = "";
+
+for(int i = 0; i<array.length; i++){
+  phrase+=array[i];
+removeSpace[i]= phrase;
+    }
+    return removeSpace;
+  }
+  
+}
